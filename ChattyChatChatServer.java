@@ -9,7 +9,7 @@ public class ChattyChatChatServer {
 	 * and instantiates a server object and assigns the port to be used.
 	 */
 	public static void main(String[] args) {
-		int port = Integer.parseInt(args[2]);
+		int port = Integer.parseInt(args[1]);
 		Server server = new Server(port);
 		server.start();
 	}//main

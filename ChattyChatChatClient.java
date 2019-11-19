@@ -11,8 +11,8 @@ public class ChattyChatChatClient {
 	static boolean done = false;
 	
 	public static void main(String[] args) {
-		int port = Integer.parseInt(args[3]);
-		String host = args[2];
+		int port = Integer.parseInt(args[2]);
+		String host = args[1];
 		
 		try {
 			Socket socket = new Socket(host, port);
